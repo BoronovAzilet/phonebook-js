@@ -4,29 +4,25 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/style.min.css" />
     <title>Document</title>
-    <style>
-      .title {
-        justify-content: center;
-      }
-      .box {
-        align-items: center;
-      }
-
-      .button {
-      }
-    </style>
   </head>
   <body>
-    <h1 class="title">PHONEBOOK-JS</h1>
-    <form class="box">
-      <label for="">ФИО</label>
-      <input type="text" id="name" placeholder="name" />
-      <label for="">ТЕЛ</label>
-      <input type="text" id="phone " placeholder="phone" />
-    </form>
-    <button class="button">submit</button>
+    <main>
+      <section>
+        <h1 class="title">phonebook-js</h1>
+        <hr />
+        <br />
+        <form class="box">
+          <label for="">ФИО</label>
+          <input type="text" id="name" class="input" />
+          <label for="">Тел:</label>
+          <input type="text" id="number" class="input" />
+          <button class="btn">send</button>
+        </form>
+      </section>
+    </main>
 
-    <script src="./javascript"></script>
+    <script src="./js/script.js"></script>
   </body>
 </html>

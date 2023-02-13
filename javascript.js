@@ -1,5 +1,8 @@
 let text = document.querySelector(".text"); //
 let form = document.querySelector(".box");
+let search = document.querySelector(".search");
+let filter = documenr.querySelector(".Filter");
+let Filter;
 
 let data = [
   { name: "Temirlan", number: +996555999888 },
